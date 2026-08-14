@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/pedrothor/payment-webhook-processor",
+  "owner": "pedrothor",
+  "repo": "payment-webhook-processor",
+  "commit_sha": "1a0c9d6c81be45df7e434c95598d84fc23425e8c",
+  "extracted_at_utc": "2026-08-14T23:59:58.021674+00:00",
+  "graphifyy_version": "graphify 0.9.18",
+  "num_nodes": 23,
+  "num_links": 50,
+  "size_bytes_gz": 1431
+}

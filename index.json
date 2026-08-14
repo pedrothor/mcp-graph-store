@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-14T23:58:29.964317+00:00",
+  "generated_at_utc": "2026-08-14T23:59:58.233876+00:00",
   "repos": {
     "pedrothor__payment-api": {
       "slug": "pedrothor__payment-api",
@@ -91,6 +91,94 @@
       "url": "https://github.com/pedrothor/payment-api",
       "commit_sha": "ac74ee4cc2d55de58ba93b2d98d33fc5938b9831",
       "extracted_at_utc": "2026-08-14T23:58:29.756803+00:00"
+    },
+    "pedrothor__payment-webhook-processor": {
+      "slug": "pedrothor__payment-webhook-processor",
+      "num_nodes": 23,
+      "num_links": 50,
+      "num_communities": 4,
+      "file_types": {
+        "code": 23
+      },
+      "top_hubs": [
+        {
+          "id": "handler",
+          "label": "handler.py",
+          "degree": 14,
+          "source_file": "handler.py"
+        },
+        {
+          "id": "schemas_paymentstatus",
+          "label": "PaymentStatus",
+          "degree": 9,
+          "source_file": "schemas.py"
+        },
+        {
+          "id": "schemas",
+          "label": "schemas.py",
+          "degree": 7,
+          "source_file": "schemas.py"
+        },
+        {
+          "id": "handler_lambda_handler",
+          "label": "lambda_handler()",
+          "degree": 7,
+          "source_file": "handler.py"
+        },
+        {
+          "id": "api_client",
+          "label": "api_client.py",
+          "degree": 6,
+          "source_file": "api_client.py"
+        }
+      ],
+      "top_communities": [
+        {
+          "id": 1,
+          "size": 8,
+          "sample": [
+            "handler.py",
+            "_ok()",
+            "_error()",
+            "lambda_handler()",
+            "validators.py"
+          ]
+        },
+        {
+          "id": 0,
+          "size": 8,
+          "sample": [
+            "mappers.py",
+            "UnknownGatewayStatusError",
+            "Exception",
+            "from_gateway_status()",
+            "schemas.py"
+          ]
+        },
+        {
+          "id": 2,
+          "size": 5,
+          "sample": [
+            "api_client.py",
+            "PaymentApiError",
+            "Exception",
+            "patch_payment_status()",
+            "PaymentUpdate"
+          ]
+        },
+        {
+          "id": 3,
+          "size": 2,
+          "sample": [
+            "WebhookPayload",
+            "BaseModel"
+          ]
+        }
+      ],
+      "size_bytes_gz": 1431,
+      "url": "https://github.com/pedrothor/payment-webhook-processor",
+      "commit_sha": "1a0c9d6c81be45df7e434c95598d84fc23425e8c",
+      "extracted_at_utc": "2026-08-14T23:59:58.021674+00:00"
     }
   }
 }
