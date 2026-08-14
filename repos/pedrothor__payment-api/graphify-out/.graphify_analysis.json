@@ -1,0 +1,160 @@
+{
+  "communities": {
+    "0": [
+      "basemodel",
+      "models_schemas_paymentresponse",
+      "models_schemas_paymentupdate",
+      "routes_payments_get_payment",
+      "routes_payments_patch_payment_status",
+      "routes_payments_py_session",
+      "services_payment_service_get_by_id",
+      "services_payment_service_py_session",
+      "services_payment_service_update_status"
+    ],
+    "1": [
+      "base",
+      "enum",
+      "models_init",
+      "models_payment",
+      "models_payment_payment",
+      "models_schemas",
+      "models_schemas_paymentstatus",
+      "str"
+    ],
+    "2": [
+      "db",
+      "db_get_db",
+      "main",
+      "main_health",
+      "routes_init",
+      "routes_payments"
+    ],
+    "3": [
+      "models_schemas_paymentcreate",
+      "routes_payments_create_payment",
+      "services_init",
+      "services_payment_service",
+      "services_payment_service_build_checkout_url",
+      "services_payment_service_create_intent"
+    ]
+  },
+  "cohesion": {
+    "0": 0.3611111111111111,
+    "1": 0.4642857142857143,
+    "2": 0.4,
+    "3": 0.5333333333333333
+  },
+  "gods": [
+    {
+      "id": "models_payment_payment",
+      "label": "Payment",
+      "degree": 8
+    },
+    {
+      "id": "models_schemas_paymentstatus",
+      "label": "PaymentStatus",
+      "degree": 7
+    },
+    {
+      "id": "models_schemas_paymentcreate",
+      "label": "PaymentCreate",
+      "degree": 7
+    },
+    {
+      "id": "models_schemas_paymentresponse",
+      "label": "PaymentResponse",
+      "degree": 7
+    },
+    {
+      "id": "models_schemas_paymentupdate",
+      "label": "PaymentUpdate",
+      "degree": 7
+    },
+    {
+      "id": "routes_payments_create_payment",
+      "label": "create_payment()",
+      "degree": 6
+    },
+    {
+      "id": "services_payment_service_update_status",
+      "label": "update_status()",
+      "degree": 6
+    },
+    {
+      "id": "routes_payments_patch_payment_status",
+      "label": "patch_payment_status()",
+      "degree": 5
+    },
+    {
+      "id": "services_payment_service_create_intent",
+      "label": "create_intent()",
+      "degree": 5
+    },
+    {
+      "id": "services_payment_service_get_by_id",
+      "label": "get_by_id()",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "build_checkout_url()",
+      "target": "Payment",
+      "source_files": [
+        "services/payment_service.py",
+        "models/payment.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "create_intent()",
+      "target": "Payment",
+      "source_files": [
+        "services/payment_service.py",
+        "models/payment.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "get_by_id()",
+      "target": "Payment",
+      "source_files": [
+        "services/payment_service.py",
+        "models/payment.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "update_status()",
+      "target": "Payment",
+      "source_files": [
+        "services/payment_service.py",
+        "models/payment.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "create_payment()",
+      "target": "PaymentResponse",
+      "source_files": [
+        "routes/payments.py",
+        "models/schemas.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

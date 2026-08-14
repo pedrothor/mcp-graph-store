@@ -1,0 +1,96 @@
+{
+  "generated_at_utc": "2026-08-14T23:58:29.964317+00:00",
+  "repos": {
+    "pedrothor__payment-api": {
+      "slug": "pedrothor__payment-api",
+      "num_nodes": 29,
+      "num_links": 67,
+      "num_communities": 4,
+      "file_types": {
+        "code": 29
+      },
+      "top_hubs": [
+        {
+          "id": "routes_payments",
+          "label": "payments.py",
+          "degree": 10,
+          "source_file": "routes/payments.py"
+        },
+        {
+          "id": "services_payment_service",
+          "label": "payment_service.py",
+          "degree": 10,
+          "source_file": "services/payment_service.py"
+        },
+        {
+          "id": "models_payment_payment",
+          "label": "Payment",
+          "degree": 8,
+          "source_file": "models/payment.py"
+        },
+        {
+          "id": "models_init",
+          "label": "__init__.py",
+          "degree": 7,
+          "source_file": "models/__init__.py"
+        },
+        {
+          "id": "models_schemas",
+          "label": "schemas.py",
+          "degree": 7,
+          "source_file": "models/schemas.py"
+        }
+      ],
+      "top_communities": [
+        {
+          "id": 0,
+          "size": 9,
+          "sample": [
+            "BaseModel",
+            "PaymentResponse",
+            "PaymentUpdate",
+            "Session",
+            "get_payment()"
+          ]
+        },
+        {
+          "id": 1,
+          "size": 8,
+          "sample": [
+            "__init__.py",
+            "payment.py",
+            "Payment",
+            "Base",
+            "schemas.py"
+          ]
+        },
+        {
+          "id": 2,
+          "size": 6,
+          "sample": [
+            "db.py",
+            "get_db()",
+            "main.py",
+            "health()",
+            "__init__.py"
+          ]
+        },
+        {
+          "id": 3,
+          "size": 6,
+          "sample": [
+            "PaymentCreate",
+            "create_payment()",
+            "__init__.py",
+            "payment_service.py",
+            "create_intent()"
+          ]
+        }
+      ],
+      "size_bytes_gz": 1688,
+      "url": "https://github.com/pedrothor/payment-api",
+      "commit_sha": "ac74ee4cc2d55de58ba93b2d98d33fc5938b9831",
+      "extracted_at_utc": "2026-08-14T23:58:29.756803+00:00"
+    }
+  }
+}

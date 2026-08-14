@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/pedrothor/payment-api",
+  "owner": "pedrothor",
+  "repo": "payment-api",
+  "commit_sha": "ac74ee4cc2d55de58ba93b2d98d33fc5938b9831",
+  "extracted_at_utc": "2026-08-14T23:58:29.756803+00:00",
+  "graphifyy_version": "graphify 0.9.18",
+  "num_nodes": 29,
+  "num_links": 67,
+  "size_bytes_gz": 1688
+}
