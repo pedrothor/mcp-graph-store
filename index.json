@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-14T23:59:58.233876+00:00",
+  "generated_at_utc": "2026-08-15T00:34:53.898044+00:00",
   "repos": {
     "pedrothor__payment-api": {
       "slug": "pedrothor__payment-api",
@@ -87,10 +87,157 @@
           ]
         }
       ],
-      "size_bytes_gz": 1688,
+      "size_bytes_gz": 1691,
+      "search_index": [
+        {
+          "id": "db",
+          "label": "db.py",
+          "source_file": "db.py"
+        },
+        {
+          "id": "db_get_db",
+          "label": "get_db()",
+          "source_file": "db.py"
+        },
+        {
+          "id": "main",
+          "label": "main.py",
+          "source_file": "main.py"
+        },
+        {
+          "id": "main_health",
+          "label": "health()",
+          "source_file": "main.py"
+        },
+        {
+          "id": "models_init",
+          "label": "__init__.py",
+          "source_file": "models/__init__.py"
+        },
+        {
+          "id": "models_payment",
+          "label": "payment.py",
+          "source_file": "models/payment.py"
+        },
+        {
+          "id": "models_payment_payment",
+          "label": "Payment",
+          "source_file": "models/payment.py"
+        },
+        {
+          "id": "base",
+          "label": "Base",
+          "source_file": ""
+        },
+        {
+          "id": "models_schemas",
+          "label": "schemas.py",
+          "source_file": "models/schemas.py"
+        },
+        {
+          "id": "models_schemas_paymentstatus",
+          "label": "PaymentStatus",
+          "source_file": "models/schemas.py"
+        },
+        {
+          "id": "str",
+          "label": "str",
+          "source_file": ""
+        },
+        {
+          "id": "enum",
+          "label": "Enum",
+          "source_file": ""
+        },
+        {
+          "id": "models_schemas_paymentcreate",
+          "label": "PaymentCreate",
+          "source_file": "models/schemas.py"
+        },
+        {
+          "id": "basemodel",
+          "label": "BaseModel",
+          "source_file": ""
+        },
+        {
+          "id": "models_schemas_paymentresponse",
+          "label": "PaymentResponse",
+          "source_file": "models/schemas.py"
+        },
+        {
+          "id": "models_schemas_paymentupdate",
+          "label": "PaymentUpdate",
+          "source_file": "models/schemas.py"
+        },
+        {
+          "id": "routes_init",
+          "label": "__init__.py",
+          "source_file": "routes/__init__.py"
+        },
+        {
+          "id": "routes_payments",
+          "label": "payments.py",
+          "source_file": "routes/payments.py"
+        },
+        {
+          "id": "routes_payments_create_payment",
+          "label": "create_payment()",
+          "source_file": "routes/payments.py"
+        },
+        {
+          "id": "routes_payments_py_session",
+          "label": "Session",
+          "source_file": ""
+        },
+        {
+          "id": "routes_payments_get_payment",
+          "label": "get_payment()",
+          "source_file": "routes/payments.py"
+        },
+        {
+          "id": "routes_payments_patch_payment_status",
+          "label": "patch_payment_status()",
+          "source_file": "routes/payments.py"
+        },
+        {
+          "id": "services_init",
+          "label": "__init__.py",
+          "source_file": "services/__init__.py"
+        },
+        {
+          "id": "services_payment_service",
+          "label": "payment_service.py",
+          "source_file": "services/payment_service.py"
+        },
+        {
+          "id": "services_payment_service_create_intent",
+          "label": "create_intent()",
+          "source_file": "services/payment_service.py"
+        },
+        {
+          "id": "services_payment_service_py_session",
+          "label": "Session",
+          "source_file": ""
+        },
+        {
+          "id": "services_payment_service_get_by_id",
+          "label": "get_by_id()",
+          "source_file": "services/payment_service.py"
+        },
+        {
+          "id": "services_payment_service_update_status",
+          "label": "update_status()",
+          "source_file": "services/payment_service.py"
+        },
+        {
+          "id": "services_payment_service_build_checkout_url",
+          "label": "build_checkout_url()",
+          "source_file": "services/payment_service.py"
+        }
+      ],
       "url": "https://github.com/pedrothor/payment-api",
       "commit_sha": "ac74ee4cc2d55de58ba93b2d98d33fc5938b9831",
-      "extracted_at_utc": "2026-08-14T23:58:29.756803+00:00"
+      "extracted_at_utc": "2026-08-15T00:34:53.699574+00:00"
     },
     "pedrothor__payment-webhook-processor": {
       "slug": "pedrothor__payment-webhook-processor",
@@ -176,6 +323,123 @@
         }
       ],
       "size_bytes_gz": 1431,
+      "search_index": [
+        {
+          "id": "api_client",
+          "label": "api_client.py",
+          "source_file": "api_client.py"
+        },
+        {
+          "id": "api_client_paymentapierror",
+          "label": "PaymentApiError",
+          "source_file": "api_client.py"
+        },
+        {
+          "id": "api_client_py_exception",
+          "label": "Exception",
+          "source_file": ""
+        },
+        {
+          "id": "api_client_patch_payment_status",
+          "label": "patch_payment_status()",
+          "source_file": "api_client.py"
+        },
+        {
+          "id": "handler",
+          "label": "handler.py",
+          "source_file": "handler.py"
+        },
+        {
+          "id": "handler_ok",
+          "label": "_ok()",
+          "source_file": "handler.py"
+        },
+        {
+          "id": "handler_error",
+          "label": "_error()",
+          "source_file": "handler.py"
+        },
+        {
+          "id": "handler_lambda_handler",
+          "label": "lambda_handler()",
+          "source_file": "handler.py"
+        },
+        {
+          "id": "mappers",
+          "label": "mappers.py",
+          "source_file": "mappers.py"
+        },
+        {
+          "id": "mappers_unknowngatewaystatuserror",
+          "label": "UnknownGatewayStatusError",
+          "source_file": "mappers.py"
+        },
+        {
+          "id": "mappers_py_exception",
+          "label": "Exception",
+          "source_file": ""
+        },
+        {
+          "id": "mappers_from_gateway_status",
+          "label": "from_gateway_status()",
+          "source_file": "mappers.py"
+        },
+        {
+          "id": "schemas",
+          "label": "schemas.py",
+          "source_file": "schemas.py"
+        },
+        {
+          "id": "schemas_paymentstatus",
+          "label": "PaymentStatus",
+          "source_file": "schemas.py"
+        },
+        {
+          "id": "str",
+          "label": "str",
+          "source_file": ""
+        },
+        {
+          "id": "enum",
+          "label": "Enum",
+          "source_file": ""
+        },
+        {
+          "id": "schemas_webhookpayload",
+          "label": "WebhookPayload",
+          "source_file": "schemas.py"
+        },
+        {
+          "id": "basemodel",
+          "label": "BaseModel",
+          "source_file": ""
+        },
+        {
+          "id": "schemas_paymentupdate",
+          "label": "PaymentUpdate",
+          "source_file": "schemas.py"
+        },
+        {
+          "id": "validators",
+          "label": "validators.py",
+          "source_file": "validators.py"
+        },
+        {
+          "id": "validators_validate_signature",
+          "label": "validate_signature()",
+          "source_file": "validators.py"
+        },
+        {
+          "id": "validators_invalidsignatureerror",
+          "label": "InvalidSignatureError",
+          "source_file": "validators.py"
+        },
+        {
+          "id": "validators_py_exception",
+          "label": "Exception",
+          "source_file": ""
+        }
+      ],
       "url": "https://github.com/pedrothor/payment-webhook-processor",
       "commit_sha": "1a0c9d6c81be45df7e434c95598d84fc23425e8c",
       "extracted_at_utc": "2026-08-14T23:59:58.021674+00:00"
